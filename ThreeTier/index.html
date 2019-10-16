@@ -1,0 +1,42 @@
+<!--
+ 
+-->
+
+<!DOCTYPE html>
+
+<head>
+	<title>CNT 4714 Remote Database Client</title>
+	<style type="text/css">
+	<!--
+		div{text-align:center; margin:10px;}
+		textarea{ max-width:500px;}
+		p{text-align:center; margin:2px;}
+		hr{height:1px; color:black; background-color:black}
+		h1{text-align:center;}
+		h3{text-align:center;}
+		article{font-size:14px;}
+		body{background-color:0066ff;}
+
+	-->
+	</style>
+</head>
+<body>
+	<h1>Welcome to the Project 4 Database Management System!</h1>
+	<hr>
+	<p>You are connected to the Project4 database.</p>
+	<p>Please enter any valid SQL query or update statement.</p>
+	<p>If no query/update command is given the Execute button will display all supplier information in the database.</p>
+	<p>All execution results will appear below.</p>
+	<div>
+	<form action="../Project4/Project4" method="post">
+		<textarea id="queryArea" name="queryArea" rows="10" cols="100"></textarea>
+			<div>
+				<input type="submit" value="Execute Command"/>
+				<input type="reset" value="Clear Form"/>
+			</div>
+		<hr>
+		<h3>Database Results:</h3>
+	</form>
+	</div>
+</body>
+</html>
